@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarInterface> = () => {
 				))}
 			</ul>
 
-			<div className='w-full mt-auto text-center text-xs text-slate-500'>
+			<div className='w-full mt-auto text-center text-xs text-slate-500 select-none'>
 				Juan Ceballos - FI Group
 			</div>
 		</aside>

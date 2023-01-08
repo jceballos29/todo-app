@@ -12,7 +12,7 @@ const Tab : React.FC<TabInterface> = ({tab}) => {
 		end
 		to={tab.path}
 		className={({ isActive }) =>
-			`group relative w-full p-4 rounded-lg flex items-center justify-between hover:bg-[#5B5956] hover:bg-opacity-10 hover:duration-300 duration-300 mb-1 ${
+			`group relative w-full p-4 rounded-lg flex items-center justify-between hover:bg-[#5B5956] hover:bg-opacity-10 hover:duration-300 duration-300 mb-1 select-none ${
 				isActive ? 'bg-[#5B5956] bg-opacity-10' : ''
 			}`
 		}
