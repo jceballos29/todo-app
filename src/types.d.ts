@@ -9,3 +9,11 @@ export interface NavTab {
 	tag: boolean;
 	amount: number;
 }
+
+export interface Task {
+	id: number;
+	task: string;
+	scheduleAt: Date;
+	completed: boolean;
+	priority: number;
+}
