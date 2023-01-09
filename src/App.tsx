@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
-import { Root } from './components/Root';
+import { Root } from './components';
 import { Completed, Home, Today, Upcoming } from './pages';
 
 let router = createBrowserRouter([
